@@ -1,0 +1,282 @@
+14:44:17 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+In file included from ../Shapes.h:12:0,
+                 from ../Shapes.cpp:9:
+../point.h: In member function ‘double Point::get_x() const’:
+../point.h:15:32: error: expected ‘;’ before ‘}’ token
+  double get_x() const {return x};
+                                ^
+../point.h: In member function ‘double Point::get_y() const’:
+../point.h:16:32: error: expected ‘;’ before ‘}’ token
+  double get_y() const {return y};
+                                ^
+subdir.mk:24: recipe for target 'Shapes.o' failed
+make: *** [Shapes.o] Error 1
+14:44:19 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+In file included from ../Shapes.h:12:0,
+                 from ../Shapes.cpp:9:
+../point.h: In member function ‘double Point::get_x() const’:
+../point.h:15:32: error: expected ‘;’ before ‘}’ token
+  double get_x() const {return x};
+                                ^
+../point.h: In member function ‘double Point::get_y() const’:
+../point.h:16:32: error: expected ‘;’ before ‘}’ token
+  double get_y() const {return y};
+                                ^
+make: *** [Shapes.o] Error 1
+subdir.mk:24: recipe for target 'Shapes.o' failed
+14:44:45 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+Finished building: ../Shapes.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:40:7: error: ‘EXIT_FAILURE’ was not declared in this scope
+  exit(EXIT_FAILURE);
+       ^
+../main.cpp:40:19: error: ‘exit’ was not declared in this scope
+  exit(EXIT_FAILURE);
+                   ^
+../main.cpp:69:7: error: ‘EXIT_FAILURE’ was not declared in this scope
+  exit(EXIT_FAILURE);
+       ^
+../main.cpp:69:19: error: ‘exit’ was not declared in this scope
+  exit(EXIT_FAILURE);
+                   ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+14:44:47 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:40:7: error: ‘EXIT_FAILURE’ was not declared in this scope
+  exit(EXIT_FAILURE);
+       ^
+../main.cpp:40:19: error: ‘exit’ was not declared in this scope
+  exit(EXIT_FAILURE);
+                   ^
+../main.cpp:69:7: error: ‘EXIT_FAILURE’ was not declared in this scope
+  exit(EXIT_FAILURE);
+       ^
+../main.cpp:69:19: error: ‘exit’ was not declared in this scope
+  exit(EXIT_FAILURE);
+                   ^
+make: *** [main.o] Error 1
+subdir.mk:24: recipe for target 'main.o' failed
+14:45:29 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building file: ../point.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"point.d" -MT"point.d" -o "point.o" "../point.cpp"
+Finished building: ../point.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:45:32 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:46:03 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:46:05 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:46:41 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:46:43 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:47:30 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:47:31 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:48:43 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:49:06 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:49:21 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:49:23 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:54:17 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:54:33 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:54:48 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:54:50 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+14:54:59 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+14:57:05 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+Finished building: ../Shapes.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+15:00:51 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+Finished building: ../Shapes.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+15:03:18 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../Shapes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Shapes.d" -MT"Shapes.d" -o "Shapes.o" "../Shapes.cpp"
+Finished building: ../Shapes.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+15:09:06 **** Build of configuration Debug for project sampletest ****
+make all 
+Building file: ../point.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"point.d" -MT"point.d" -o "point.o" "../point.cpp"
+Finished building: ../point.cpp
+ 
+Building target: sampletest
+Invoking: GCC C++ Linker
+g++  -o "sampletest"  ./Shapes.o ./main.o ./point.o   
+Finished building target: sampletest
+ 
+15:09:35 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.
+15:09:37 **** Incremental Build of configuration Debug for project sampletest ****
+make all 
+make: Nothing to be done for 'all'.

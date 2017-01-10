@@ -1,0 +1,1733 @@
+23:15:19 **** Clean-only build of configuration Debug for project fnc_ptr ****
+make clean 
+rm -rf  ./another_try.o ./func.o  ./another_try.d ./func.d  fnc_ptr
+ 
+23:15:42 **** Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:15:55 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:15:57 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:16:53 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:18:38 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:29:8: error: cannot initialize return object of type 'fp' (aka 'int (*)(int, int)') with an rvalue of type 'int'
+return a + b;
+       ^~~~~
+../hmm.cpp:35:8: error: cannot initialize return object of type 'fp' (aka 'int (*)(int, int)') with an rvalue of type 'int'
+return a*b;
+       ^~~
+2 errors generated.
+make: *** [hmm.o] Error 1
+23:19:24 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:35:8: error: cannot initialize return object of type 'fp' (aka 'int (*)(int, int)') with an rvalue of type 'int'
+return a*b;
+       ^~~
+1 warning and 1 error generated.
+make: *** [hmm.o] Error 1
+23:19:30 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:19:34 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:19:57 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:58:35: error: reference to overloaded function could not be resolved; did you mean to call it?
+                        return table[i].the_fnc(a ,b)<<endl;
+                                                       ^~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1032:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+2 warnings and 1 error generated.
+make: *** [hmm.o] Error 1
+23:20:01 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:60:28: warning: variable 'a' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                ^
+../hmm.cpp:51:7: note: initialize the variable 'a' to silence this warning
+        int a, b;
+             ^
+              = 0
+../hmm.cpp:60:30: warning: variable 'b' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                  ^
+../hmm.cpp:51:10: note: initialize the variable 'b' to silence this warning
+        int a, b;
+                ^
+                 = 0
+4 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:20:16 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:61:28: warning: variable 'a' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                ^
+../hmm.cpp:51:7: note: initialize the variable 'a' to silence this warning
+        int a;
+             ^
+              = 0
+../hmm.cpp:61:30: warning: variable 'b' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                  ^
+../hmm.cpp:52:7: note: initialize the variable 'b' to silence this warning
+        int b;
+             ^
+              = 0
+4 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:20:40 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:61:28: warning: variable 'a' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                ^
+../hmm.cpp:51:7: note: initialize the variable 'a' to silence this warning
+        int a;
+             ^
+              = 0
+../hmm.cpp:61:30: warning: variable 'b' is uninitialized when used here [-Wuninitialized]
+                        return table[i].the_fnc(a,b);
+                                                  ^
+../hmm.cpp:52:7: note: initialize the variable 'b' to silence this warning
+        int b;
+             ^
+              = 0
+4 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:20:50 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:21:02 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+};
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+};
+^
+2 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:21:10 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:21:14 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:27:10 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:50:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+        ^
+../hmm.cpp:19:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../hmm.cpp:20:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fnc_namein, fp the_fncin);
+        ^
+../hmm.cpp:57:7: error: use of undeclared identifier 'something'
+        cin>>something;
+             ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:27:29 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:36:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:50:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+        ^
+../hmm.cpp:19:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../hmm.cpp:20:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fnc_namein, fp the_fncin);
+        ^
+../hmm.cpp:55:7: error: use of undeclared identifier 'something'
+        cin>>something;
+             ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:28:10 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:51:26: error: expected ';' after expression
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                ^
+                                ;
+../hmm.cpp:51:27: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+../hmm.cpp:51:43: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                                 ^
+../hmm.cpp:56:7: error: use of undeclared identifier 'something'
+        cin>>something;
+             ^
+2 warnings and 4 errors generated.
+make: *** [hmm.o] Error 1
+23:28:35 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:51:26: error: expected ';' after expression
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                ^
+                                ;
+../hmm.cpp:51:27: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+../hmm.cpp:51:43: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry():fnc_name(NULL), the_fnc(NULL) {}
+                                                 ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:30:00 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:31:19 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:53:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:53:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:53:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:31:28 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:55:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:55:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:32:35 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:47:4: error: calling a private constructor of class 'tableEntry'
+                        tableEntry("add", (fp)add),
+                        ^
+../hmm.cpp:22:2: note: implicitly declared private here
+        tableEntry(string fnc_namein, fp the_fncin);
+        ^
+../hmm.cpp:48:4: error: calling a private constructor of class 'tableEntry'
+                        tableEntry("mult", (fp)mult)
+                        ^
+../hmm.cpp:22:2: note: implicitly declared private here
+        tableEntry(string fnc_namein, fp the_fncin);
+        ^
+../hmm.cpp:55:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:55:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+../hmm.cpp:65:15: error: 'fnc_name' is a private member of 'tableEntry'
+                if(table[i].fnc_name == "add"){
+                            ^
+../hmm.cpp:24:9: note: implicitly declared private here
+        string fnc_name;
+               ^
+../hmm.cpp:68:20: error: 'the_fnc' is a private member of 'tableEntry'
+                        return table[i].the_fnc(a ,b);
+                                        ^
+../hmm.cpp:25:5: note: implicitly declared private here
+        fp the_fnc;
+           ^
+../hmm.cpp:69:21: error: 'fnc_name' is a private member of 'tableEntry'
+                }else if(table[i].fnc_name == "mult"){
+                                  ^
+../hmm.cpp:24:9: note: implicitly declared private here
+        string fnc_name;
+               ^
+../hmm.cpp:70:20: error: 'the_fnc' is a private member of 'tableEntry'
+                        return table[i].the_fnc(a,b);
+                                        ^
+../hmm.cpp:25:5: note: implicitly declared private here
+        fp the_fnc;
+           ^
+2 warnings and 8 errors generated.
+make: *** [hmm.o] Error 1
+23:32:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:55:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:55:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:34:29 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+In file included from ../hmm.cpp:16:
+../h.h:27:8: error: cannot initialize return object of type 'fp' (aka 'int (*)(int, int)') with an rvalue of type 'int'
+return a + b;
+       ^~~~~
+../h.h:33:8: error: cannot initialize return object of type 'fp' (aka 'int (*)(int, int)') with an rvalue of type 'int'
+return a*b;
+       ^~~
+../hmm.cpp:31:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:31:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+4 errors generated.
+make: *** [hmm.o] Error 1
+23:34:42 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+In file included from ../hmm.cpp:16:
+../h.h:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../h.h:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:31:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:31:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:35:14 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+In file included from ../hmm.cpp:16:
+../h.h:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../h.h:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:31:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                               ^
+../hmm.cpp:31:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fnc_namein, fp the_fncin) :
+                                                  ^
+2 warnings and 2 errors generated.
+make: *** [hmm.o] Error 1
+23:35:58 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+In file included from ../hmm.cpp:16:
+../h.h:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../h.h:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:29:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:29:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:29:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:37:17 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:53:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:53:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:53:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:39:25 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:53:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:53:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:53:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:39:46 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../hmm.cpp:53:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:53:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:53:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+2 warnings and 3 errors generated.
+make: *** [hmm.o] Error 1
+23:39:56 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:27: error: expected ';' after expression
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:30:30: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                    ^
+../hmm.cpp:30:46: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() :  fnc_name(NULL), the_fnc(NULL) {}
+                                                    ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:41:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(NULL) {}
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(NULL) {}
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(NULL) {}
+                                               ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:41:56 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                               ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:42:52 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                               ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:42:58 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                               ^
+../hmm.cpp:32:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:32:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+5 errors generated.
+make: *** [hmm.o] Error 1
+23:43:02 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                               ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:43:14 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                               ^
+../hmm.cpp:32:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:32:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+5 errors generated.
+make: *** [hmm.o] Error 1
+23:44:09 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {};
+                                               ^
+../hmm.cpp:32:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:32:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+5 errors generated.
+make: *** [hmm.o] Error 1
+23:44:50 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:26: error: expected ';' after expression
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                ^
+                                ;
+../hmm.cpp:30:28: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                  ^
+../hmm.cpp:30:41: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry(): fnc_name(0), the_fnc(0) {}
+                                               ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:44:57 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:32:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:32:45: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:47:04 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:32:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:32:45: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:47:15 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:32:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:32:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:32:45: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:47:59 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:33:45: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:48:33 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:33:57: error: too few arguments to function call, expected 2, have 1
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ~~~~~~~     ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:48:39 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:33:57: error: too few arguments to function call, expected 2, have 1
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ~~~~~~~     ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:48:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^
+../hmm.cpp:33:57: error: too few arguments to function call, expected 2, have 1
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ~~~~~~~     ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:48:53 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') does not provide a call operator
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                   ^~~~~~~~
+../hmm.cpp:33:57: error: too few arguments to function call, expected 2, have 1
+        tableEntry::tableEntry() : fnc_name(NULL), the_fnc(NULL) {}
+                                                   ~~~~~~~     ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:49:31 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:33:29: error: type 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') does not provide a call operator
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^~~~~~~~
+../hmm.cpp:33:51: error: too few arguments to function call, expected 2, have 1
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ~~~~~~~  ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:50:25 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:31:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^
+../hmm.cpp:31:42: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:50:55 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:21: error: use of undeclared identifier 'fnc_name'
+        string something = fnc_name;
+                           ^
+../hmm.cpp:32:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:32:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^
+../hmm.cpp:32:42: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ^
+../hmm.cpp:47:10: error: use of undeclared identifier 'a'
+                        cin>> a >> b;
+                              ^
+../hmm.cpp:48:28: error: use of undeclared identifier 'a'
+                        return table[i].the_fnc(a ,b);
+                                                ^
+../hmm.cpp:50:28: error: use of undeclared identifier 'a'
+                        return table[i].the_fnc(a,b);
+                                                ^
+7 errors generated.
+make: *** [hmm.o] Error 1
+23:51:12 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:30:21: error: use of undeclared identifier 'fnc_name'
+        string something = fnc_name;
+                           ^
+../hmm.cpp:32:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:32:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^
+../hmm.cpp:32:42: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ^
+../hmm.cpp:47:10: error: use of undeclared identifier 'a'
+                        cin>> a >> b;
+                              ^
+../hmm.cpp:48:28: error: use of undeclared identifier 'a'
+                        return table[i].the_fnc(a ,b);
+                                                ^
+../hmm.cpp:50:28: error: use of undeclared identifier 'a'
+                        return table[i].the_fnc(a,b);
+                                                ^
+7 errors generated.
+make: *** [hmm.o] Error 1
+23:51:18 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:31:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^
+../hmm.cpp:31:42: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:52:22 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:52:39 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:27: error: expected ';' after expression
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                 ^
+                                 ;
+../hmm.cpp:31:29: error: use of undeclared identifier 'fnc_name'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                   ^
+../hmm.cpp:31:42: error: use of undeclared identifier 'the_fnc'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+                                                ^
+3 errors generated.
+make: *** [hmm.o] Error 1
+23:52:45 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:24:4: error: calling a private constructor of class 'tableEntry'
+                        tableEntry("add", (fp)add),
+                        ^
+../h.h:18:2: note: implicitly declared private here
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+../hmm.cpp:25:4: error: calling a private constructor of class 'tableEntry'
+                        tableEntry("mult", (fp)mult)
+                        ^
+../h.h:18:2: note: implicitly declared private here
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+../hmm.cpp:31:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+        ^
+../h.h:15:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class tableEntry{
+      ^
+../h.h:18:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+../hmm.cpp:44:15: error: 'fnc_name' is a private member of 'tableEntry'
+                if(table[i].fnc_name == "add"){
+                            ^
+../h.h:20:9: note: implicitly declared private here
+        string fnc_name;
+               ^
+../hmm.cpp:47:20: error: 'the_fnc' is a private member of 'tableEntry'
+                        return table[i].the_fnc(a ,b);
+                                        ^
+../h.h:21:5: note: implicitly declared private here
+        fp the_fnc;
+           ^
+../hmm.cpp:48:21: error: 'fnc_name' is a private member of 'tableEntry'
+                }else if(table[i].fnc_name == "mult"){
+                                  ^
+../h.h:20:9: note: implicitly declared private here
+        string fnc_name;
+               ^
+../hmm.cpp:49:20: error: 'the_fnc' is a private member of 'tableEntry'
+                        return table[i].the_fnc(a,b);
+                                        ^
+../h.h:21:5: note: implicitly declared private here
+        fp the_fnc;
+           ^
+7 errors generated.
+make: *** [hmm.o] Error 1
+23:53:05 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+        ^
+../h.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../h.h:18:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+1 error generated.
+make: *** [hmm.o] Error 1
+23:53:09 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+        ^
+../h.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../h.h:18:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+1 error generated.
+make: *** [hmm.o] Error 1
+23:53:18 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+        ^
+../h.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../h.h:18:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+1 error generated.
+make: *** [hmm.o] Error 1
+23:53:25 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Undefined symbols for architecture x86_64:
+  "tableEntry::tableEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int (*)(int, int))", referenced from:
+      _main in hmm.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [mahn] Error 1
+23:53:34 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:31:2: error: no matching constructor for initialization of 'tableEntry::tableEntry'
+        tableEntry::tableEntry() : fnc_name(0), the_fnc(0) {}
+        ^
+../h.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+struct tableEntry{
+       ^
+../h.h:18:2: note: candidate constructor not viable: requires 2 arguments, but 0 were provided
+        tableEntry(string fncname_in, fp thefnc_in);
+        ^
+1 error generated.
+make: *** [hmm.o] Error 1
+23:53:40 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+23:55:00 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+../hmm.cpp:64:5: error: redefinition of 'add'
+int add(int a, int b)
+    ^
+../h.h:25:5: note: previous definition is here
+int add(int a, int b)
+    ^
+../hmm.cpp:71:5: error: redefinition of 'mult'
+int mult(int a, int b)
+    ^
+../h.h:32:5: note: previous definition is here
+int mult(int a, int b)
+    ^
+4 errors generated.
+make: *** [hmm.o] Error 1
+23:55:11 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:24:26: error: use of undeclared identifier 'add'
+                        tableEntry("add", (fp)add),
+                                              ^
+../hmm.cpp:25:27: error: use of undeclared identifier 'mult'
+                        tableEntry("mult", (fp)mult)
+                                               ^
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+4 errors generated.
+make: *** [hmm.o] Error 1
+23:55:16 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:24:26: error: use of undeclared identifier 'add'
+                        tableEntry("add", (fp)add),
+                                              ^
+../hmm.cpp:25:27: error: use of undeclared identifier 'mult'
+                        tableEntry("mult", (fp)mult)
+                                               ^
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+4 errors generated.
+make: *** [hmm.o] Error 1
+23:55:38 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+23:57:31 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+23:57:35 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+23:57:43 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in)
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+00:02:16 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in) :
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+00:02:36 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:33:25: error: unexpected type name 'string': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in):
+                               ^
+../hmm.cpp:33:44: error: unexpected type name 'fp': expected expression
+        tableEntry::tableEntry(string fncname_in, fp thefnc_in):
+                                                  ^
+2 errors generated.
+make: *** [hmm.o] Error 1
+00:03:21 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:43:2: error: expected unqualified-id
+        for(int i = 0; i < 3; i++){
+        ^
+1 error generated.
+make: *** [hmm.o] Error 1
+00:03:36 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:03:41 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:04:09 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:04:13 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:04:26 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:04:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:04:51 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:05:17 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:05:19 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:05:28 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:05:30 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:05:54 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:06:11 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:06:13 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:07:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:07:52 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:08:09 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:08:22 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:09:19 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:09:22 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:09:28 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:09:31 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:09:48 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:09:51 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:10:02 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:12:45 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:13:15 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+../hmm.cpp:25:4: error: excess elements in array initializer
+                        tableEntry("mult", (fp)mult)
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [hmm.o] Error 1
+00:13:20 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:13:24 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:13:25 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:14:16 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:15:40 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:15:50 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:15:59 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:16:16 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+Building file: ../hmm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hmm.d" -MT"hmm.o" -o "hmm.o" "../hmm.cpp"
+Finished building: ../hmm.cpp
+ 
+Building target: mahn
+Invoking: MacOS X C++ Linker
+g++  -o "mahn"  ./hmm.o   
+Finished building target: mahn
+ 
+00:16:23 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:16:32 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.
+00:16:44 **** Incremental Build of configuration Debug for project mahn ****
+make all 
+make: Nothing to be done for `all'.

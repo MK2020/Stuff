@@ -1,0 +1,30 @@
+/*
+ * functions2.h
+ *
+ *  Created on: 9 Jan 2017
+ *      Author: mwanahusssein
+ */
+
+#ifndef FUNCTIONS2_H_
+#define FUNCTIONS2_H_
+
+
+typedef myFunctions (*fnc_name)(int a, int b);
+
+struct myFunctions{
+
+//default constructor
+	myFunctions();
+//overloaded contsructor
+	myFunctions(string name_entered, fnc_name name);
+
+	int val_a;
+	int val_b;
+
+
+};
+
+
+
+
+#endif /* FUNCTIONS2_H_ */

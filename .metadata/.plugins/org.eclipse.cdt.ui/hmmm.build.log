@@ -1,0 +1,21 @@
+22:43:11 **** Incremental Build of configuration Debug for project hmmm ****
+make all 
+Building file: ../table.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"table.d" -MT"table.o" -o "table.o" "../table.cpp"
+In file included from ../table.cpp:9:
+../functions2.h:12:15: error: expected unqualified-id
+typedef int (*int) (int a, int b);
+              ^
+../functions2.h:12:15: error: expected ')'
+../functions2.h:12:13: note: to match this '('
+typedef int (*int) (int a, int b);
+            ^
+../table.cpp:17:13: error: use of undeclared identifier 'fnc_name'
+                myTable ((fnc_name)do_add);
+                          ^
+3 errors generated.
+make: *** [table.o] Error 1
+
+22:43:12 Build Finished (took 1s.274ms)
+

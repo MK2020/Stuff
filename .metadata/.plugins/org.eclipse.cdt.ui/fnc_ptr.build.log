@@ -1,0 +1,7 @@
+23:15:19 **** Clean-only build of configuration Debug for project fnc_ptr ****
+make clean 
+rm -rf  ./another_try.o ./func.o  ./another_try.d ./func.d  fnc_ptr
+ 
+
+23:15:19 Build Finished (took 78ms)
+

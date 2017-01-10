@@ -1,0 +1,1 @@
+Farthestpoint.o: ../Farthestpoint.cpp

@@ -1,0 +1,122 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 4 Dec 2016
+ *      Author: mh4115
+ */
+
+
+
+#include <iostream>
+#include "Shapes.h"
+
+#include <vector>
+#include <fstream>
+#include <sstream>
+#include <cstdlib>
+#include <list>
+
+using namespace std;
+
+
+int main()
+{
+
+cout<<"here"<<endl;
+
+string filename1 ="triangles.txt";
+string filename2 = "circles.txt";
+
+ifstream infile1, infile2;
+
+list<Triangle> triangles;
+list<Circle> circles;
+
+
+infile1.open(filename1.c_str());
+
+if(!infile1.is_open())
+{
+	cout<<"could not open "<<filename1<<endl;
+	exit(EXIT_FAILURE);
+}
+
+double tmp1x, tmp1y, tmp2x, tmp2y, tmp3x, tmp3y;
+
+while(infile1 >> tmp1x >> tmp1y >> tmp2x >> tmp2y >> tmp3x >> tmp3y){
+
+	Point tmp1(tmp1x,tmp1y), tmp2(tmp2x, tmp2y), tmp3(tmp3x,tmp3y);
+
+	//try{
+
+	Triangle T1(tmp1, tmp2, tmp3);
+	triangles.push_back(T1);
+
+//	}
+//	catch(const logic_error& e){
+//		cout<<"you are trying to construct a WRONG triangle!"<<e.what()<<endl;
+//
+////closing the file stream
+//		infile1.close();
+//	}
+}
+
+double radius;
+
+infile2.open(filename2.c_str());
+if(!infile2.is_open())
+{
+	cout<<"could not open "<<filename2<<endl;
+	exit(EXIT_FAILURE);
+}
+
+double tmp4x, tmp4y;
+while(infile2 >> tmp4x >> tmp4y >> radius){
+
+	Point tmp4(tmp4x, tmp4y);
+	Circle C1(tmp4, radius);
+	circles.push_back(C1);
+
+}
+
+
+//creating one vector of pointers pointing to elements in both lists
+//and use only this vector for the perimeter printing phase
+
+vector<Shapes*> shapes;
+
+vector<Shapes*>::iterator shapes_it;
+list<Circle>::iterator circle_it;
+list<Triangle>::iterator triangle_it;
+
+for(triangle_it = triangles.begin(); triangle_it != triangles.end(); ++triangle_it){
+
+	shapes.push_back(&(*triangle_it));
+
+}
+
+
+for(circle_it = circles.begin(); circle_it != circles.end(); ++circle_it){
+
+	shapes.push_back(&(*circle_it));
+
+}
+
+for(shapes_it = shapes.begin(); shapes_it != shapes.end(); ++shapes_it){
+
+
+	cout<<"Perimeter: "<<(*shapes_it)+1;
+	cout<<(*shapes_it)->perimeter()<<endl;
+
+}
+
+
+
+return 0;
+}
+
+
+
+
+
+

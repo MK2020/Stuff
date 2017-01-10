@@ -1,0 +1,48 @@
+21:52:21 **** Build of configuration Debug for project SE2L1 ****
+make all 
+Building file: ../Farthestpoint.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Farthestpoint.d" -MT"Farthestpoint.o" -o "Farthestpoint.o" "../Farthestpoint.cpp"
+Finished building: ../Farthestpoint.cpp
+ 
+Building file: ../classpoint.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"classpoint.d" -MT"classpoint.o" -o "classpoint.o" "../classpoint.cpp"
+../classpoint.cpp:20:1: warning: '/*' within block comment [-Wcomment]
+/*when public
+^
+1 warning generated.
+Finished building: ../classpoint.cpp
+ 
+Building file: ../point_defn.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"point_defn.d" -MT"point_defn.o" -o "point_defn.o" "../point_defn.cpp"
+Finished building: ../point_defn.cpp
+ 
+Building file: ../pointsandlines.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pointsandlines.d" -MT"pointsandlines.o" -o "pointsandlines.o" "../pointsandlines.cpp"
+Finished building: ../pointsandlines.cpp
+ 
+Building file: ../triangle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"triangle.d" -MT"triangle.o" -o "triangle.o" "../triangle.cpp"
+Finished building: ../triangle.cpp
+ 
+Building file: ../triangle_defn.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"triangle_defn.d" -MT"triangle_defn.o" -o "triangle_defn.o" "../triangle_defn.cpp"
+Finished building: ../triangle_defn.cpp
+ 
+Building target: SE2L1
+Invoking: MacOS X C++ Linker
+g++  -o "SE2L1"  ./Farthestpoint.o ./classpoint.o ./point_defn.o ./pointsandlines.o ./triangle.o ./triangle_defn.o   
+make: *** [SE2L1] Terminated: 15
+Undefined symbols for architecture x86_64:
+  "Point::distance_eqn(double)", referenced from:
+      _main in pointsandlines.o
+ld: symbol(s) not found for architecture x86_64
+Command canceled
+
+21:52:23 Build Cancelled (took 2s.640ms)
+

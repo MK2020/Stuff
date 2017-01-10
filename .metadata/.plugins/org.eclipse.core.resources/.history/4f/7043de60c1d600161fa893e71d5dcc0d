@@ -1,0 +1,57 @@
+/*
+ * another_try.cpp
+ *
+ *  Created on: 9 Jan 2017
+ *      Author: mwanahusssein
+ */
+#include <iostream>
+using namespace std;
+
+typedef int (*fp)(int a, int b);
+struct tableEntry{
+	tableEntry(string fnc_name, fp the_fnc);
+	string fnc_name;
+	fp the_fnc;
+};
+
+
+int add(int a, int b)
+{
+
+cout<< a + b;
+
+}
+
+int mult(int a, int b)
+{
+return a*b;
+}
+
+
+int main(){
+
+	tableEntry table[2] = {
+
+
+			tableEntry("add", (fp)add),
+			tableEntry("mult", (fp)mult)
+
+
+	};
+
+	string something;
+	int a, b;
+	cin>>something;
+	cin>> a >> b;
+}
+
+
+
+
+
+
+
+
+
+
+

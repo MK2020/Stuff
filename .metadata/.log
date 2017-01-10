@@ -1,0 +1,95 @@
+!SESSION 2017-01-09 21:39:18.899 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/mwanahusssein/Desktop/2nd Year/SE2/Stuff/ -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:09.379
+!MESSAGE Indexed 'SE2L6 - Polymorphism' (4 sources, 8 headers) in 1.78 sec: 87 declarations; 136 references; 15 unresolved inclusions; 0 syntax errors; 78 unresolved names (26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:16.638
+!MESSAGE Indexed 'SE2L9 - Exceptions' (2 sources, 4 headers) in 0.201 sec: 37 declarations; 50 references; 15 unresolved inclusions; 0 syntax errors; 57 unresolved names (40%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:28.202
+!MESSAGE Indexed 'Sample_test' (3 sources, 186 headers) in 11.6 sec: 25,908 declarations; 55,790 references; 5 unresolved inclusions; 11 syntax errors; 777 unresolved names (0.94%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:35.896
+!MESSAGE Indexed 'sampletest1' (3 sources, 188 headers) in 7.69 sec: 27,302 declarations; 57,448 references; 0 unresolved inclusions; 11 syntax errors; 774 unresolved names (0.91%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:36.602
+!MESSAGE Indexed 'sampletest' (3 sources, 2 headers) in 0.125 sec: 69 declarations; 180 references; 12 unresolved inclusions; 0 syntax errors; 72 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:43.291
+!MESSAGE Indexed 'SE2L2' (4 sources, 185 headers) in 6.68 sec: 26,088 declarations; 54,187 references; 0 unresolved inclusions; 11 syntax errors; 727 unresolved names (0.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:49.839
+!MESSAGE Indexed 'SE2L4' (3 sources, 186 headers) in 6.53 sec: 26,057 declarations; 53,508 references; 0 unresolved inclusions; 12 syntax errors; 774 unresolved names (0.96%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:40:55.430
+!MESSAGE Indexed 'SE2L1' (5 sources, 186 headers) in 5.58 sec: 26,042 declarations; 53,422 references; 0 unresolved inclusions; 11 syntax errors; 772 unresolved names (0.96%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:41:11.180
+!MESSAGE Indexed 'SE2L3' (13 sources, 253 headers) in 9.13 sec: 29,763 declarations; 61,890 references; 1 unresolved inclusions; 17 syntax errors; 773 unresolved names (0.84%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:41:16.575
+!MESSAGE Indexed 'SE2L5' (3 sources, 190 headers) in 5.38 sec: 26,078 declarations; 53,342 references; 4 unresolved inclusions; 12 syntax errors; 813 unresolved names (1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:41:21.352
+!MESSAGE Indexed 'Labs7 - Polymorphism' (2 sources, 1 headers) in 0.027 sec: 87 declarations; 113 references; 4 unresolved inclusions; 0 syntax errors; 100 unresolved names (33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:41:26.578
+!MESSAGE Indexed 'SE2L8 - Templates' (3 sources, 188 headers) in 5.21 sec: 26,505 declarations; 55,210 references; 0 unresolved inclusions; 11 syntax errors; 772 unresolved names (0.94%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 21:41:30.127
+!MESSAGE Indexed 'hmmm' (1 sources, 180 headers) in 3.54 sec: 22,823 declarations; 46,293 references; 0 unresolved inclusions; 11 syntax errors; 86 unresolved names (0.12%)
+!SESSION 2017-01-09 21:42:55.687 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/mwanahusssein/Desktop/2nd Year/SE2/Stuff/ -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+
+!ENTRY org.eclipse.ui.ide 4 0 2017-01-09 21:44:03.925
+!MESSAGE Could not import project located at /Users/mwanahusssein/Desktop/2nd Year/SE2/Stuff/SE2L7 - Polymorphism2
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /Users/mwanahusssein/Desktop/2nd Year/SE2/Stuff/SE2L7 - Polymorphism2
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:518)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:239)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:553)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:505)
+	... 2 more
+!SESSION 2017-01-09 22:21:56.558 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-01-09 22:21:58.849
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-01-09 22:24:28.868 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/mwanahusssein/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-01-09 22:24:31.033
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 22:47:39.233
+!MESSAGE Indexed 'fnc_ptr' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-01-09 23:15:31.302
+!MESSAGE Indexed 'mahn' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

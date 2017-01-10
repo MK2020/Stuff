@@ -1,0 +1,1 @@
+classpoint.o: ../classpoint.cpp
